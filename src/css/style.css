@@ -119,18 +119,41 @@ body {
   padding: 1.75rem;
 }
 
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
 .main_button {
   display: flex;
   align-items: center;
+  margin: 2rem auto 0 auto;
 }
 .main_button .line {
   width: 100%;
   height: 0;
-  border: 2px solid red;
+  border: 1px solid hsl(0, 0%, 86%);
   position: relative;
 }
 .main_button .button {
   float: right;
+  padding: 1.5rem;
+  border-radius: 50%;
+  border: none;
+  background-color: hsl(259, 100%, 65%);
 }
 
 .attribution {

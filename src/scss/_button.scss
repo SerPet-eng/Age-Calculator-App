@@ -1,14 +1,21 @@
+@use './variables/variables.scss' as *;
+
 .main_button {
   display: flex;
   align-items: center;
+  margin: 2rem auto 0 auto;
 
   .line {
     width: 100%;
     height: 0;
-    border: 2px solid red;
+    border: 1px solid $clrNeutral700;
     position: relative;
   }
   .button {
     float: right;
+    padding: 1.5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: $clrPrimary_Purple;
   }
 }
