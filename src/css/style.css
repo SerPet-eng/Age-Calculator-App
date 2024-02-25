@@ -79,7 +79,7 @@ body {
 .app .app-container {
   border: 1px solid blue;
   border-radius: 1rem 1rem 8rem 1rem;
-  min-width: 700px;
+  min-width: 800px;
   padding: 3.125rem 2rem 1.5rem;
 }
 
@@ -148,7 +148,6 @@ body {
 .main_button {
   display: flex;
   align-items: center;
-  margin: 2rem auto 0 auto;
 }
 .main_button .line {
   width: 100%;
