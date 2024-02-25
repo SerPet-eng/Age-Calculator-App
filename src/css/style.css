@@ -71,12 +71,31 @@ body {
   font-size: 2rem;
 }
 
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
 .app {
   min-height: 100svh;
   display: grid;
   place-content: center;
 }
 .app .app-container {
+  background-color: hsl(0, 0%, 100%);
   border: 1px solid blue;
   border-radius: 1rem 1rem 8rem 1rem;
   min-width: 800px;
@@ -201,25 +220,7 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-/**-- FOR VARIABLES --**/
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
 body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: hsl(0, 0%, 94%);
 }/*# sourceMappingURL=style.css.map */

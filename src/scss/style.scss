@@ -5,9 +5,7 @@
 @import './hero';
 @import './attribute';
 
-/**-- FOR VARIABLES --**/
-@import './variables/variables.scss';
-
 body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: hsl(0, 0%, 94%);
 }

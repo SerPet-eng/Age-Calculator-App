@@ -1,8 +1,11 @@
+@use './variables/variables.scss' as *;
+
 .app {
   min-height: 100svh;
   display: grid;
   place-content: center;
   .app-container {
+    background-color: $clrNeutral900;
     border: 1px solid blue;
     border-radius: 1rem 1rem 8rem 1rem;
     min-width: 800px;
