@@ -10,11 +10,16 @@
     border: 1px solid $clrNeutral700;
     position: relative;
   }
+
   .button {
     float: right;
     padding: 1.5rem;
     border-radius: 50%;
     border: none;
     background-color: $clrPrimary_Purple;
+    cursor: pointer;
+    &:active {
+      background-color: $clrNeutral100;
+    }
   }
 }

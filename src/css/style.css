@@ -180,6 +180,10 @@ body {
   border-radius: 50%;
   border: none;
   background-color: hsl(259, 100%, 65%);
+  cursor: pointer;
+}
+.main_button .button:active {
+  background-color: hsl(0, 0%, 8%);
 }
 
 .poppins-bold {
