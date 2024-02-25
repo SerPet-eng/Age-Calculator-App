@@ -3,13 +3,13 @@ export default function Hero() {
     <>
       <section className="hero">
         <h1>
-          <span className="years">--</span>Years
+          <span>--</span>years
         </h1>
         <h1>
-          <span className="months">--</span>Months
+          <span>--</span>months
         </h1>
         <h1>
-          <span className="days">--</span>Days
+          <span>--</span>days
         </h1>
       </section>
     </>

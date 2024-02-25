@@ -156,6 +156,35 @@ body {
   background-color: hsl(259, 100%, 65%);
 }
 
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.hero h1 {
+  font-size: 4rem;
+}
+.hero h1 span {
+  color: hsl(259, 100%, 65%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
