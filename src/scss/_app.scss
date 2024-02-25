@@ -1,12 +1,11 @@
 .app {
-  border: 1px solid red;
   min-height: 100svh;
   display: grid;
   place-content: center;
   .app-container {
     border: 1px solid blue;
-    border-radius: 1rem 1rem 5rem 1rem;
+    border-radius: 1rem 1rem 8rem 1rem;
     min-width: 700px;
-    padding: 5rem 2rem;
+    padding: 3.125rem 2rem 1.5rem;
   }
 }
