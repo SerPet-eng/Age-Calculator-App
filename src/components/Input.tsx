@@ -3,7 +3,7 @@ export default function Input() {
     <>
       <form className="form">
         <div className="input">
-          <label htmlFor="date">Date</label>
+          <label htmlFor="date">Day</label>
           <input type="number" name="date" id="date" min="1" max="31" />
         </div>
         <div className="input">

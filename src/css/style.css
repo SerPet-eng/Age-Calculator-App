@@ -111,12 +111,21 @@ body {
   flex-direction: column;
   font-size: 1rem;
 }
+.form .input label {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: hsl(0, 1%, 44%);
+}
+.form .input input[type=number]::-webkit-inner-spin-button,
+.form .input input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
 .form .input input {
   border: 1px solid hsl(0, 1%, 44%);
   border-radius: 0.5rem;
-  max-height: 3rem;
   font-size: 2rem;
-  padding: 1.75rem;
+  padding: 0.5rem 0 0.5rem 2rem;
 }
 
 .poppins-bold {
